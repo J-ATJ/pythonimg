@@ -6,12 +6,12 @@ body, h1, h2, h3, h4, h5{
     padding: 0;
 }
 body{
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    animation: gradiente 10s ease infinite;
-    background-size: 400% 200%;
     background: linear-gradient(90deg,#00032d,#3005da,#9a245f, #28000e);
     color: rgb(246, 236, 57);
+    background-size: 400% 400%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    animation: gradiente 10s ease infinite;
 }
 @keyframes gradiente {
 	0% {
