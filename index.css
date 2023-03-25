@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+
+body {
+    background: linear-gradient(90deg, #00005e, #6565bc, #ef58bd);
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 img {
+    max-height: 55px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leclerc,
+.lisa {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+h5 {
+    margin: 50px 0 30px 0;
+    font-size: 25px;
+}
+
+.pic {
+    max-width: 70%;
+    border-radius: 30px;
+}
+
+.pic:hover {
+    scale: 1.08;
+    border-radius: 0;
+    transition-duration: .3s;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    margin-top: 10px;
+    font-size: 42px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    scale: 1.3;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 567px) {
+    h1 img{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .leclerc{
+        width: 80%;
+    }
+    .lisa{
+        margin-top: 100px;
+        width: 80%;
+    }
+}
